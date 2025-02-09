@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pengenalan Software</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Pengenalan Software</h1>
+        <nav>
+          <ul>
+            <li><a href="#software">Software</a></li>
+            <li><a href="#system-software">System Software</a></li>
+            <li><a href="#application-software">Application Software</a></li>
+            <li><a href="#hubungan">Hubungan</a></li>
+            <li><a href="#jurnal">Jurnal</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="software">
+        <h2>Apa itu Software?</h2>
+        <p>
+            Software atau perangkat lunak adalah kumpulan program, data, dan dokumentasi yang menginstruksikan komputer atau perangkat elektronik tentang cara melakukan tugas tertentu. Ini adalah komponen sistem komputer yang tidak berwujud, berbeda dengan perangkat keras, yang mengacu pada komponen fisik. Perangkat lunak dapat dikategorikan menjadi beberapa jenis, masing-masing memiliki tujuan dan fungsi yang berbeda.
+            Software terdiri dari beberapa komponen yaitu Program Ini adalah kumpulan instruksi yang dijalankan komputer untuk melakukan tugas. Program dapat berkisar dari skrip sederhana hingga aplikasi kompleks yang mengelola berbagai fungsi dalam suatu sistem. Data Ini mencakup informasi yang dimanipulasi oleh program untuk menghasilkan hasil yang berarti. Data bisa dalam berbagai bentuk, seperti teks, gambar, audio, atau video, dan penting untuk pengoperasian aplikasi perangkat lunak. Dokumentasi Ini mencakup manual, panduan pengguna, dan materi tertulis lainnya yang menjelaskan cara menggunakan perangkat lunak, fitur-fiturnya, dan fungsinya. Dokumentasi sangat penting bagi pengguna untuk memahami dan memanfaatkan perangkat lunak secara efektif.
+            Perangkat lunak memainkan peran penting dalam masyarakat modern, memungkinkan berbagai fungsi di berbagai sektor, termasuk bisnis, pendidikan, perawatan kesehatan, dan hiburan. Ini meningkatkan produktivitas, memfasilitasi komunikasi, dan menyediakan alat untuk analisis data dan pengambilan keputusan. Seiring dengan terus berkembangnya teknologi, permintaan akan solusi perangkat lunak inovatif pun semakin meningkat, menjadikan rekayasa perangkat lunak sebagai bidang yang vital.
+        </p>
+      </section>
+
+      <section id="system-software">
+        <h2>System Software</h2>
+        <p>
+          System software atau perangkat lunak sistem adalah perangkat lunak yang berfungsi sebagai
+          perantara antara perangkat keras (hardware) dan perangkat lunak
+          aplikasi (application software). Perangkat lunak ini sangat penting
+          dalam sistem tertanam (embedded systems), karena memungkinkan operasi
+          yang efisien, pengelolaan sumber daya, serta integrasi dengan
+          perangkat keras. Komponen utama System Software adalam Sistem Tertanam
+          antara lain adalah Sistem Operasi Tertanam (Embedded Operating System)
+          yang berfungsi menangani proses I/O, penjadwalan dan context
+          switching, memiliki kemampuan real-time dalam mengatasi tugas dalam
+          waktu tertentu, serta mendukung akses eksklusif ke sumber daya dengan
+          protokol seperti priority inheritance, priority ceilling, dan stack
+          resource protocols. Ada syarat yang harus dipenuhi untuk Sistem
+          Operasi Tertanam yaitu ukuran yang kecil dan bisa dikonfigurasi,
+          efisiensi dalam pengelolaan sumber daya, dan keamanan serta ketahanan
+          terhadap serangan. Contoh implementasi System Software dalam System
+          Tertanam yaitu Embedded Linux seperti pada router dan TV pintar dan
+          Real-Time Operating System - RTOS pada ERIKA dan FreeRTOS Adapun
+          Middleware sebagai komponen utama System Software yang berada diantara
+          sistem operasi dan aplikasi lalu berfungsi sebagai komunikasi antara
+          berbagai macam komponen dalam sistem tertanam. Lalu terdapat Hardware
+          Abstraction Layer (HAL) yang memisahkan aplikasi dari perangkat keras
+          yang mendasarinya serta memungkinkan fleksibilitas dalam pengembangan
+          dan portabilitas peranngkat lunak ke berbagai perangkat keras.
+        </p>
+      </section>
+
+      <section id="application-software">
+        <h2>Application Software</h2>
+        <p>
+          Application Software atau perangkat lunak aplikasi dirancang untuk membantu pengguna melakukan tugas
+          atau fungsi tertentu, seperti pengolah kata, pengelolaan data, atau
+          desain grafis. Berbeda dengan perangkat lunak sistem, yang mengelola
+          perangkat keras dan sumber daya sistem, perangkat lunak aplikasi
+          secara langsung memenuhi kebutuhan pengguna dan meningkatkan
+          produktivitas. Untuk mengimplementasikan perangkat lunak aplikasi,
+          pengembang mengikuti proses terstruktur yang mencakup pengumpulan
+          persyaratan, desain, pengkodean, pengujian, dan penerapan. Hal ini
+          sering kali melibatkan penggunaan metode rekayasa perangkat lunak
+          untuk memastikan kualitas, efisiensi, dan kepuasan pengguna sepanjang
+          siklus pengembangan. Contoh umum perangkat lunak aplikasi adalah
+          Microsoft Word, yang memungkinkan pengguna membuat, mengedit, dan
+          memformat dokumen teks. Ini mencakup fitur-fitur seperti pemeriksaan
+          ejaan, templat, dan alat kolaborasi, menjadikannya alat serbaguna
+          untuk penggunaan pribadi dan profesional.
+        </p>
+      </section>
+
+      <section id="hubungan">
+        <h2>
+          Hubungan Antara System Software, dan Application Software
+        </h2>
+        <p>Berikut ini adalah penjelasan mengenai hubungan antara System Software dan Application Software : </p>
+        <ul>
+            <li>Ketergantungan: Application Software bergantung pada System Software untuk berfungsi. Tanpa Operating System (sejenis System Software), Application Software tidak dapat berjalan, karena memerlukan sistem yang mendasarinya untuk mengelola sumber daya perangkat keras.</li>
+            <li>Interaksi: System Software menyediakan lingkungan dan layanan yang diperlukan Application Software untuk beroperasi. Misalnya, ketika pengguna membuka pengolah kata, sistem operasi mengalokasikan memori dan mengelola operasi I/O untuk memfasilitasi fungsionalitas aplikasi.</li>
+            <li>Tingkatan: System Software berada pada tingkat dasar, menyediakan layanan dan sumber daya penting yang dibangun oleh Application Software untuk memberikan fungsionalitas tertentu kepada pengguna.</li>
+        </ul>
+        <section id="jurnal">
+            <h2>Jurnal yang Digunakan</h2>
+            <p>Berikut adalah daftar jurnal yang digunakan sebagai referensi dalam penulisan artikel ini:</p>
+            <ul>
+                <li>
+                    <a href="Software.pdf" target="_blank" class="button">Jurnal 1: Pengenalan Software</a>
+                </li>
+                <li>
+                    <a href="System Software.pdf" target="_blank" class="button">Jurnal 2: System Software</a>
+                </li>
+                <li>
+                    <a href="Application Software.pdf" target="_blank" class="button">Jurnal 3: Application Software</a>
+                </li>
+            </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>2025 Pengenalan Software</p>
+      </div>
+    </footer>
+  </body>
+</html>
